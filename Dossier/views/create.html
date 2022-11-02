@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Creation formulaire</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../img/ico.png">
+</head>
+<header>
+    <a href="../views/menu.php"><img class = "logo" src="../img/Logo_HEPL.jpg"></a>
+</header>
+<body>
+    <!-- menu drag -->
+    <aside class="drag">
+        <ul> 
+            <li class="base" id="titre" draggable="true"> <img alt="image" src="/img/Titre.png" width="100" height="80"></li>
+            <li class="base" id="court" draggable="true"><img alt="image" src="/img/Courte.png" width="100" height="80"></li>
+            <li class="base" id="long" draggable="true"><img alt="image" src="/img/Longue.png" width="100" height="80"></li>
+            <li class="base" id="radio" draggable="true"><img alt="image" src="/img/Cocher.png" width="100" height="80"></li>
+            <li class="base" id="select" draggable="true"><img alt="image" src="/img/Multiple.png" width="100" height="80"></li>
+        </ul>
+    </aside>
+
+    <!-- menu drop -->
+    <section class="drop">
+        <ul id = "liste_drop">
+            <li>
+                <p>Encoder la date limite du formulaire: </p>
+                <input type="date" id="dateLimite">
+                <p>Encoder le titre du formulaire: </p>
+                <input type="text" id="titreForm">
+                <p>Encoder le mot de passe du formulaire: </p>
+                <input type="text" id="mdp">
+            </li>
+            <li class="case" data-use="-1" data-type = "">
+                <button id="del" onclick="delContenuCase(this)">
+                    <img alt="del" src="/img/croix.png" width="15" height="15">
+                </button>
+            </li>
+            
+            <!-- <button id="add_div" onclick="addCase();">
+                <img alt="ajout" src="/img/logo_plus.jpg" width="50" height="50">
+            </button> -->
+            
+            <button id="valider" onclick="validerForm();">Sauver le questionnaire</button>
+        </ul>
+    </section>
+</body>
+<footer>
+    <script src="../js/create.js" async defer></script>
+    <script src="../js/HtmlToJSON.js" async defer></script>
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+</footer>
+
+</html>

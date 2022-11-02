@@ -1,0 +1,115 @@
+body {
+    background: teal;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ul {
+    list-style: none;
+    display:list-item;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+section {
+    display:list-item;
+    list-style: none;
+}
+aside{
+    width: 10%;
+    position: fixed;
+}
+section ul li button{
+    float: right;
+    padding: 0px 0px 0px 0px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+form{
+    text-align: center;
+    display: list-item;
+}
+label{
+    margin: 10px;
+}
+input{
+    margin: 10px;
+}
+.logo {
+    width: 200px;
+    height: auto;
+}
+.base {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.tenu {
+    border: solid 5px #ccc;
+}
+
+.case {
+    display:list-item;
+    min-height: 50px;
+    height: auto;
+    width: 500px;
+    margin: 10px auto 10px auto;
+    border: solid 3px black;
+    background: #fff;
+    position: relative;
+    text-align: left;
+}
+
+.hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+}
+.menu li 
+{
+    display:list-item;
+    width: 800px;
+    border: solid 1px black;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+}
+.menu li p 
+{
+    display:inline-block;
+    margin: 10px;
+}
+.g-signin2{
+    height: 36px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.tox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lecture{
+    text-align: center;
+    display: list-item;
+}
+.valider{
+    text-align: center;
+    display: list-item;
+    margin: auto;
+}
+.question{
+    text-decoration: underline;
+}

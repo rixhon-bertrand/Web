@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-signin-client_id" content="426738120348-1vu7q259t8akq533b77cclnm23pk2mht.apps.googleusercontent.com">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/ico.png">
+</head>
+<header>
+    <img class = "logo" src="../img/Logo_HEPL.jpg">
+</header>
+<body>
+    <h1>Login</h1>
+
+    <div class="g-signin2" data-onsuccess="onSignIn" onload="renderButton()" ></div>
+
+    <div class="data">
+        <!-- <button type="button" class="btn btn-danger" onclick="signOut();">Sign Out</button> -->
+    </div>
+
+</body>  
+<footer>
+    <script src="js/login.js" async defer></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/client:platform.js" async defer></script>
+</footer>
+</html>
